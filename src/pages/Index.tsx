@@ -52,6 +52,9 @@ const Index = () => {
         <div className="absolute inset-0 bg-gradient-to-b from-primary/20 via-secondary/10 to-background"></div>
         <div className="container mx-auto px-6 relative z-10">
           <div className="text-center space-y-6 animate-fade-in">
+            <p className="text-lg md:text-xl text-secondary font-medium mb-4">
+              Открытие звёзд от Насте, любимой Даше ✨
+            </p>
             <div className="inline-block animate-float">
               <Icon name="Orbit" size={80} className="text-primary" />
             </div>
