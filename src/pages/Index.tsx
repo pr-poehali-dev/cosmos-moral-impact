@@ -56,13 +56,13 @@ const Index = () => {
               Открытие звёзд и вселенной, от Настюши, любимой Даше ✨
             </p>
             <div className="inline-block animate-float">
-              <Icon name="Orbit" size={80} className="text-primary" />
+              <Icon name="Sparkles" size={80} className="text-primary" />
             </div>
-            <h1 className="text-6xl md:text-8xl font-bold text-glow">
-              Космос и <span className="text-primary">Человечество</span>
+            <h1 className="text-5xl md:text-7xl font-bold mb-8">
+              Астероид <span className="text-primary">"Даша"</span>
             </h1>
-            <p className="text-xl md:text-2xl text-muted-foreground max-w-3xl mx-auto">
-              Исследуйте влияние космоса на развитие цивилизации, открывайте новые горизонты и узнавайте о последних достижениях в освоении Вселенной
+            <p className="text-xl md:text-2xl leading-relaxed max-w-4xl mx-auto">
+              Существует астероид главного пояса, который называется "Даша". Он был открыт 3 октября 1975 года советским астрономом Людмилой Черных. Был назван в честь Дарьи Севастопольской
             </p>
             <div className="flex gap-4 justify-center pt-8">
               <Button
