@@ -55,8 +55,12 @@ const Index = () => {
             <p className="text-lg md:text-xl text-secondary font-medium mb-4">
               Открытие звёзд и вселенной, от Настюши, любимой Даше ✨
             </p>
-            <div className="inline-block animate-float">
-              <Icon name="Sparkles" size={80} className="text-primary" />
+            <div className="inline-block animate-float mb-8">
+              <img 
+                src="https://cdn.poehali.dev/files/image.png" 
+                alt="Астероид Даша" 
+                className="w-64 h-64 md:w-80 md:h-80 object-contain mx-auto rounded-2xl"
+              />
             </div>
             <h1 className="text-5xl md:text-7xl font-bold mb-8">
               Астероид <span className="text-primary">"Даша"</span>
